@@ -33,4 +33,7 @@ do {
   // prompt always returns string.
   //we need to convert the string to a number and check if it was successfully converted
 } while (!isNaN(Number(input)));
-console.log(input);
+// console.log(input);
+
+// alert("Welcome " + input);
+alert(`Welcome ${input}`)
